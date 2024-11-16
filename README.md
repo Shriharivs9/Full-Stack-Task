@@ -52,7 +52,7 @@ Comments: Store task-related comments.
 
 Deployment
 
-Fully deployed on a cloud platform (e.g., AWS, Azure, or Heroku).
+Fully deployed on a cloud platform Like Vercel, Heroku or any other .
 
 Technologies Used
 
@@ -72,10 +72,6 @@ WebSocket library (e.g., Socket.IO)
 
 Database
 
-PostgreSQL/MySQL (Relational DB) or MongoDB (NoSQL DB)
-
-Other Tools
-
 JWT for authentication
 
 Testing: Pytest (Flask/FastAPI) or Jest (Node.js)
@@ -89,8 +85,6 @@ Prerequisites
 Node.js (v16 or higher)
 
 Python (if using Flask/FastAPI)
-
-Docker (optional for containerization)
 
 PostgreSQL/MySQL/MongoDB
 
@@ -191,12 +185,7 @@ GET /api/tasks/:taskId/comments - Fetch comments for a task
 
 Deployment
 
-Deploy the backend and frontend to a cloud platform (e.g., AWS, Azure, Heroku).
-
-Ensure the database is hosted on a reliable service (e.g., AWS RDS, MongoDB Atlas).
-
-Update the frontend API URL to match the deployed backend.
-
+Deploy the backend and frontend to a cloud platform (Vercel, Heroku).
 Demo
 
 Live URL: Task Management System
@@ -218,8 +207,4 @@ Push to the branch:
 git push origin feature/your-feature-name
 
 Open a pull request.
-
-License
-
-This project is licensed under the MIT License.
 
